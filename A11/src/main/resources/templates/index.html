@@ -12,12 +12,14 @@
 				<tr>
 					<th>ID</th>
 					<th>Content</th>
+					<th>Published Date</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr th:each="entry : ${listEntries}">
 					<td th:text="${entry.id}">ID</td>
 					<td th:text="${entry.content}">Content</td>
+					<td th:text="${entry.date}">Published Date</td>
 				</tr>
 			</tbody>
 			
