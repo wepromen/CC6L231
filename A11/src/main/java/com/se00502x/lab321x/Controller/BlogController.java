@@ -19,7 +19,7 @@ public class BlogController {
 		List<Entrys> listEntries = entryService.listAllEntries();
 		model.addAttribute("listEntries", listEntries);
 		
-		return "My Blog - us-123my-life.simplesite.com";
+		return "MyBlog";
 		
 	}
 	
